@@ -1,0 +1,219 @@
+.header>img:first-child {
+    height: 120px;
+    width: 260px;
+
+}
+
+.header>img:last-child {
+    height: 120px;
+    width: 460px;
+}
+
+.header {
+    
+    height: 130px;
+    width: 90%;
+    margin-top: -84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: -2px solid rgb(204, 200, 200);
+    
+}
+
+
+.header>p {
+    margin: 4%;
+  
+    font-family: sans-serif;
+
+}
+
+.header>p:first-child {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 25px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.header>p:last-child {
+    font-size: 16px;
+}
+
+.checkOutSec{
+    width: 85.5%;
+    height: 110px;
+    margin: auto;
+    margin-top: 3%;
+    padding: 0px 16px;
+    border: 1px solid rgb(235, 234, 236);
+}
+.checkOutSec>div{
+    padding: 25px;
+  
+}
+
+.checkOutSec>div:first-child{
+    width: 15%;
+    justify-content: space-around;
+}
+
+.checkOutSec>div:last-child{
+    width: 70%;
+}
+
+.checkOutSec>div:last-child>p:first-child{
+    margin-top: 0px;
+}
+
+.checkOutSec>div:last-child>p:nth-child(2){
+    margin-right: 100px;
+}
+.checkOutSec>div>p>i{
+    margin-left: 0.5%;
+    height: 5px;
+    color: rgb(172, 169, 169);
+    
+}
+
+.checkOutSec>div>p{
+    padding-top: 3%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+}
+.totalSecBottom1>p:nth-child(2){
+    color: red;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+}
+.totalSecBottom1, .checkOutSec, .checkOutSec>div + div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalSecBottom1>img, .totalSecBottom1>button{
+    width: 290px;
+    height: 60px
+}
+
+.totalSecBottom1>button{
+    background-color:#ff9c01;
+    border:1PX SOLID #ff9c01;
+    color: white;
+    font-size: 22px;
+}
+.totalSecBottom1{
+    width: 700px;
+    justify-content: space-around;
+}
+
+.paymnet_methods{
+    display: flex;
+    width: 87.5%;
+    margin: auto;
+     margin-top: 0%;
+}
+.paymnet_methods>p{
+    margin-top: 2%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    padding:7px
+}
+.paymnet_methods>img{
+    height: 50px;
+    padding-top: 20px;
+}
+.lastBar {
+ 
+    margin: auto;
+    width: 87%; 
+    display: flex;
+margin-top: 3%;
+
+}
+
+.lastBar>img:first-child {
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+.lastBar>img:last-child{
+height: 34px;
+}
+
+.lastPara{
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.totalProductPrice1{
+    margin-right: 2%;
+    margin-left: 1%;
+}
+.totalProductPrice{
+    margin-right: 2%;
+    margin-left: -7%;
+}
+
+.prodSec{
+    border: 1px solid rgb(235, 234, 236);
+    width: 87%;
+    gap: 20px;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+}
+
+
+input{
+    height: 45px;
+    width: 480px;
+    border: 1px solid rgb(212, 210, 210);
+}
+#form>div{
+padding: 1% 0px;  
+display: flex;
+}
+
+
+#form>div>div:last-child{
+    width: 80%;
+   }
+
+#form>div>div:first-child{
+    text-align: right ;
+    margin-right: 1%;
+    margin-top: 17px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 20%;
+}
+span{
+    color: red;
+}
+
+form{
+    padding-top: 1%;
+}
+
+#submitBtn{
+    font-size: 22px;
+    height: 470x;
+    padding-top: 1%;
+    padding-bottom: 3.5%;
+    width: 170px;
+   display: flex;
+   justify-content: center;
+align-content: center;
+background-color: #ff9c01;
+color: white;
+margin-bottom: 3%;
+}

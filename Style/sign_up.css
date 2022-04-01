@@ -1,0 +1,86 @@
+.logo>img {
+    display: block;
+    margin: auto;
+    width: 17%;
+    height: 140px;
+}
+
+.logo>p {
+    text-align: center;
+    margin-top: 87px;
+
+}
+
+.body {
+    width: 100%;
+    height: 680px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(//img.gkbcdn.com/s3/bn/2203/signin-6239450f2b40c91b9c8a4526.jpg)
+}
+
+.forgotPass {
+    width: 92%;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.mainSignin {
+    height: 433px;
+    width: 390px;
+    margin: auto;
+    padding: 30px 35px 65px 35px;
+    background-color: white;
+}
+
+#or {
+    text-align: center;
+}
+
+#hrbrk {
+    background-color: rgb(197, 190, 190);
+}
+
+label {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+input {
+    width: 96%;
+    height: 45px;
+    margin-top: 6%;
+    border: 2px solid rgb(190, 190, 190);
+}
+
+.forgotPass>p:last-child {
+    text-decoration: underline;
+    color: rgb(167, 161, 161);
+}
+
+
+#createAcc {
+    border: 2px solid rgb(214, 211, 211);
+    background-color: #FDB103;
+    color: white;
+    font-weight: bold;
+}
+
+.google{
+    border: 1px solid red;
+    width:10%;
+    margin: auto;
+    font-size: 30px;
+  
+}
+.termscondi{
+    font-size:15px;
+    font-family: sans-serif;
+}
+
+
+

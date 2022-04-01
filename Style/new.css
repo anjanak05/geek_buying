@@ -1,0 +1,474 @@
+/* <-----------------------------------------header start--------------------------------------------> */
+.header {
+    background-color: white;
+    border: 1px solid rgb(219, 216, 216);
+}
+
+select {
+    border: none;
+    font-weight: bold;
+}
+
+.categories, .category1 {
+    display: flex;
+}
+
+.subHeader2>div>p>i {
+    font-size: 23px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.categories {
+    font-size: 12px;
+    width: 90%;
+    margin-left: 35px;
+    justify-content: space-around;
+    margin-top: 1%;
+    font-weight: bold;
+
+}
+
+.subHeader2 {
+    width: 85.5%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 1%;
+
+}
+
+.subHeader2>div {
+    margin-top: -20px;
+    width: 30px;
+}
+
+
+.subHeader2>div>div {
+    padding-top: -10px;
+}
+
+.subHeader2>div:first-child {
+    width: 67%;
+}
+
+.subHeader2>div>div:first-child>img {
+    height: 60px;
+    margin-left: 1%;
+    margin-right: 3%;
+    width: 160px;
+}
+
+.subHeader2>div>div:first-child>input {
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(78, 2, 148);
+}
+
+.subHeader2>div>div:first-child>button {
+    width: 13%;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(78, 2, 148);
+}
+
+.subHeader2>div:last-child {
+    width: 30%;
+}
+
+hr {
+    border-color: rgb(240, 237, 237);
+    margin-bottom: 25px;
+}
+
+.subHeader1, .subHeader11 {
+    height: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-right: 10%;
+    font-size: 15px;
+    /* flex-direction: column; */
+
+}
+
+.subHeader11 {
+    width: 20%;
+    align-content: flex-end;
+    height: 100px;
+    margin-right: 1%;
+    margin-top: 1%;
+
+}
+
+.subHeader11>p>i {
+    margin-top: 20%;
+
+}
+
+.subHeader11>p {
+    margin-right: -25px;
+
+}
+
+
+/* <-----------------------------------------header end--------------------------------------------> */
+
+
+
+/* <------------------footer css start-------------------------> */
+.footer {
+    padding: 5% 0px 5% 0px;
+    margin: auto;
+    width: 85.5%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+}
+
+.firstfootera>input {
+    width: 75%;
+    height: 38px;
+    border: 2px solid rgb(8, 8, 131);
+    border-radius: 2px;
+}
+
+.firstfootera>input:last-child {
+    width: 24%;
+    background-color: rgb(8, 8, 131);
+    color: white;
+    border-radius: 1%;
+    height: 38px;
+    font-size: 16px;
+}
+
+.footera>div {
+    border: 1px solid red
+}
+
+.firstfootera {
+    margin-bottom: 6%;
+}
+
+.firstfooterb>p:last-child, .firstfooterb>p:nth-child(2) {
+    line-height: 25px;
+}
+
+.secondFootera {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondFootera>div>i {
+    margin-top: 7px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.secondFootera>div:last-child>i {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.secondFooterb {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+}
+
+.secondFooterb>div {
+    margin: auto;
+    margin-top: 18%;
+}
+
+.secondFooterb>div>p:first-child {
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+
+.firstfooterb>p:first-child {
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.secondFooterb>div:first-child>p:first-child {
+    margin-bottom: 32%;
+}
+
+.navBar>p {
+    padding: 1px 0px 1px 3px;
+    width: 125px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.navBar {
+    background-color: white;
+    height: 180px;
+    width: 85.5%;
+    margin: auto;
+
+
+}
+
+.navBar1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    gap: 10px
+}
+
+.navBar1>p {
+    width: auto;
+    font-size: 14px;
+    padding: 14px 0px 4px 10%;
+    background-color: rgb(235, 227, 227);
+    color: rgb(158, 150, 150);
+}
+
+.languages {
+    text-align: center;
+
+    color: rgb(158, 150, 150);
+}
+
+.lastBar>img {
+    display: block;
+    margin: auto;
+}
+
+.lastBar {
+    padding-bottom: 2%;
+}
+
+.lastBar>img:first-child {
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+/* <--------------------------------------footer css end---------------------> */
+
+/* 
+<-------------body css start--------------------------> */
+
+body {
+    background-color: white;
+}
+
+#bestSelling {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    padding: 44px 0px 44px 0px;
+    background-color: #a3d7ff;
+}
+
+.mainContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    gap: 15px;
+}
+
+.firstConatiner {
+    height: 410px;
+    width: 28%;
+    padding: 13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.arrow, .filterSortBox>div>div:first-child, .filterSortBox>div>div:last-child {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.filterSortBox>div>div:last-child {
+    justify-content: space-evenly;
+    margin: 5px 5px 5px -95px;
+}
+
+.filterSortBox {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 2%;
+}
+
+.filterSortBox>div>div, .filterSortBox>p {
+
+    padding: 10px;
+
+}
+
+.arrow>div, .firstConatiner>p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.firstConatiner>p {
+    font-weight: bold;
+}
+
+.arrow>div>i {
+    color: rgb(172, 168, 168);
+}
+
+.secondConatiner {
+    height: auto;
+    width: 75%;
+}
+
+#filter {
+
+    margin-top: -10px;
+    font-weight: normal;
+}
+
+.sort>p{
+    margin-top: -10px;
+    padding: 2px 20px;
+    border: 1px solid rgb(207, 206, 206);
+}
+
+.sort1 {
+
+    padding: 2px 20px;
+    border: 1px solid rgb(207, 206, 206);
+}
+.sort>label{
+    margin-left: 5px;
+    margin-top: -10px;
+}
+.productBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap:25px
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.productBox>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 14px;
+}
+
+.productBox>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.productBox>div>img{
+    margin-top: 4%;
+    height: 230px;
+    width: 270px;
+    margin-bottom: 4%;
+}
+.productBox>div>p{
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.heartImage{
+    height: 25px;
+    width: 25px;
+
+}
+.heartDiv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.firstPara{
+    font-size: 50px;
+}
+
+.productBox>div>p:nth-child(3){
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.heartDiv1, .pricediv{
+    display: flex;
+    gap: 5px;
+}
+
+.heartDiv1>p{
+    font-size: 15px;
+}
+
+.cartButon{
+    display: block;
+    padding: 8px 30px;
+    background-color: #ff9c01;
+    color: white;
+    border: #ff9c01;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.recommendationBox{
+ 
+    width: 85.5%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.recommendationBox>div>img{
+    height: 200px;
+    width: 190px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.recommendationBox>div{
+    padding: 4%;
+    line-height: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.recommendationBox>div>p{
+    color: #666666;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.pricediv>P:nth-child(1){
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.pricediv>P:nth-child(2){
+    font-size: 17px;
+}
+.pricediv{
+    margin-bottom: 5%;
+}
+
+.lastPara{
+    margin-left: 7%;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 23px;
+}

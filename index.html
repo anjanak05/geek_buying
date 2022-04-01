@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Outdoors and Ecommerce</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style/index.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- 
+    <-----------------------------------header start ------------------------------------->
+    <div class="header">
+        <div class="subHeader1">
+            <p><i class="fa-solid fa-mobile-screen"></i> Save BIG with our app! <i class="fa-solid fa-angle-down"></i>
+            </p>
+            <p>Language <i class="fa-solid fa-angle-down"></i></p>
+            <p>Ship to India / INR <i class="fa-solid fa-angle-down"></i></p>
+            <p>Support Center <i class="fa-solid fa-angle-down"></i></p>
+        </div>
+        <hr>
+
+        <div class="subHeader2">
+            <div>
+                <div>
+                    <img onclick="indexPageFunc()"  src="data:image/jpeg;base64,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">
+                    <input type="text" placeholder="Search by Keyboards">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="category1">
+                    <select name="category" id="categories">
+                       <option value="">Shop All Categories</option>
+                    </select>
+
+                   <div class="categories">
+                       <p><a href="new.html">New</a></p>
+                       <p><a href="topSeller.html">Top Seller </a></p>
+                       <p> <a href="topSeller.html">Live</a></p>
+                       <p> <a href="topSeller.html">Brand</a></p>
+                       <p> <a href="topSeller.html">Clearance</a></p>
+                       <p> <a href="topSeller.html">Deals</a></p>
+                       <p> <a href="topSeller.html">Bargain</a></p>
+                       <p> <a href="topSeller.html">Coupon</a></p>
+                   </div>
+
+                </div>
+            </div>
+            <div class="subHeader11">
+                <p><i class="fas fa-user"></i><a href="sign_in.html">Sign in</a></p>
+                <p><i class="fa-solid fa-heart"></i> <a href="wishLish.html">Wishlist</a></p>
+                <p><i class="fas fa-shopping-cart"></i><a href="cart.html"> Cart</a></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 
+    <-----------------------------------header end ------------------------------------->
+
+    <!-- 
+    <-----------------------------------autoslider start ------------------------------------->
+    <div id="sliderMain">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img style="height: 335px;"
+                        src="https://img.gkbcdn.com/s3/bn/2203/1090x422-623c3ab12b40c90b206c3d5e.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img style="height: 335px;"
+                        src="https://img.gkbcdn.com/s3/bn/2203/1090x422-62383dfa2b40c92c80d0a4a5.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img style="height: 335px;"
+                        src="https://img.gkbcdn.com/s3/bn/2203/1090x422-623420962b40c90188a0d6a2.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img style="height: 335px;"
+                        src="https://img.gkbcdn.com/s3/bn/2203/1090x422-624181cb2b40c93b48a63988.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img style="height: 335px;"
+                        src="https://img.gkbcdn.com/s3/bn/2203/1090x422-624190302b40c93b48a1e7ce.jpg" alt="...">
+
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div id="sideSliderImg">
+            <img src="https://img.gkbcdn.com/s3/bn/2203/350x160-623c49282b40c90b20f94aa6.jpg" alt="">
+            <img src="https://img.gkbcdn.com/s3/bn/2203/350x242-623c49602b40c90b20f94aa8.jpg" alt="">
+        </div>
+    </div>
+    <!-- 
+<----------------------------------auto silder end------------------------------------------->
+    <div class="firstBox"></div>
+
+    <div class="secondBox">
+        <div class="flash">
+            <p> <i class="fa-solid fa-bolt"></i><b> Flash Deals </b> Ends in <span id="span1"> 00:23:43:04</span></p>
+        </div>
+        <div class="secondBox1"></div>
+    </div>
+
+    <div class="thirdBox"></div>
+</body>
+<div style="background-color: #fff7e1;">
+    <div class="fourthBox">
+        <div>
+            <p>New Arrivals <span class="span2"> See More</span></p>
+        </div>
+        <div class="fourthBox1"></div>
+    </div>
+
+</html>
+
+<div class="fiveBox">
+    <div>
+        <p>Best Sellers <span class="span2"> See More</span></p>
+    </div>
+    <div class="fiveBox1"></div>
+</div>
+
+</html>
+<div style="background-color: #fffaee;">
+    <div class="sixthBox">
+        <div>
+            <p>Geekbuying Live<span class="span2"> See More</span></p>
+        </div>
+        <div class="sixthBox1"></div>
+        <div class="sixthBox2"></div>
+    </div>
+
+
+    <div class="seventhBox">
+        <div>
+            <p>Popular Brands<span class="span2"> See More</span></p>
+        </div>
+        <div class="seventhBoxB">
+            <div class="seventhBox1">
+                <img class="inimage" src="https://img.gkbcdn.com/s3/b/Logo/tronsmart.jpg?v=788944783" alt="">
+                <div class="seventhBox11"></div>
+            </div>
+            <div class="seventhBox2">
+                <img class="inimage" src="https://img.gkbcdn.com/s3/b/Logo/jimmy.jpg?v=-219567574" alt="">
+                <div class="seventhBox22"></div>
+            </div>
+            <div class="seventhBox3">
+                <img class="inimage" src="https://img.gkbcdn.com/s3/b/Logo/roborock.jpg" alt="">
+                <div class="seventhBox33"></div>
+            </div>
+            <div class="seventhBox4">
+                <img class="inimage" src="https://img.gkbcdn.com/s3/b/Logo/mecool.jpg" alt="">
+                <div class="seventhBox44"></div>
+            </div>
+            <div class="seventhBox5">
+                <img class="inimage" src="https://img.gkbcdn.com/s3/b/sculpfun-6AlQjHhs.jpg" alt="">
+                <div class="seventhBox55"></div>
+            </div>
+            <div class="seventhBox6">
+                <img class="inimage" src="https://img.gkbcdn.com/s3/b/Logo/sonoff.jpg" alt="">
+                <div class="seventhBox66"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div style="background-color:white;">
+    <div class="eightBox">
+        <div>
+            <p>Trending Categories</p>
+        </div>
+        <div class="eightBox1"></div>
+    </div>
+
+
+
+    <div class="nineBox">
+        <div>
+            <p>Recommendations for you</p>
+        </div>
+        <div class="nineBox1"></div>
+    </div>
+    <!-- /* <------------------footer start------------------------->
+
+    <div class="footer">
+        <div>
+            <div class="firstfootera">
+                <input type="email" placeholder="Enter email to get a 5% off coupon">
+                <input type="submit" value="Subscribe">
+            </div>
+            <div class="firstfooterb">
+                <p>About Geekbuying</p>
+                <p> We at Geekbuying are all about making our customers' lives comfortable and smarter. We have a
+                    massive selection of products and offer unbeatable prices. If you are looking for the latest and the
+                    greatest product in categories like smart home and outdoor gadgets, Geekbuying is where you should
+                    be!
+
+                </p>
+                <p> Geekbuying is the ultimate shopping hub for new releases covering smart home products like vacuum
+                    cleaners, fitness equipment like treadmills, top of the line home and office furniture, outdoor
+                    items including e-bikes, scooters, and other consumer goods like TV boxes, RC Toys and so much more!
+                    Shop for your favorite brands and products today!</p>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="secondFootera">
+                <div><i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-blogger-b"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <i class="fa-brands fa-android"></i>
+                    <i class="fa-brands fa-apple"></i>
+                </div>
+            </div>
+            <div class="secondFooterb">
+                <div>
+                    <p> Help</p>
+                    <p>Order status</p>
+                    <p>About us </p>
+                    <p>Contact us</p>
+                    <p>Warranty </p>
+                    <p>FAQs</p>
+                    <p>Sitemap</p>
+
+                </div>
+                <div>
+                    <p>Support</p>
+                    <p>Payment information</p>
+                    <p>Shipping guide</p>
+                    <p>Wholesale</p>
+                    <p>Affiliates</p>
+                    <p>Student discount</p>
+                    <p>Youth discount</p>
+                    <p>Request a sample</p>
+
+                </div>
+                <div>
+                    <p>Policies</p>
+                    <p>Terms & conditions</p>
+                    <p>Return policy</p>
+                    <p>Privacy</p>
+                    <p>Declaration</p>
+                    <p>Customs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div style="background-color:white;">
+    <div class="navBar">
+        <p> Popular Searches</p>
+        <div class="navBar1">
+            <p>Geekbuying Coupon</p>
+            <p>Roborock Q7 Max</p>
+            <p>Tronsmart Bluetooth </p>
+            <p>Windows Mini PC</p>
+            <p> android tv boxes</p>
+            <p>LDS Robot Vacuum</p>
+            <p>Electric Bike</p>
+            <p>OnexPlayer mini </p>
+        </div>
+    </div>
+    <p class="languages">English | Español | Français | Deutsch | Italiano | Português | Nederlands | Polski | Русский |
+        Türkçe | ελληνικά | Magyar | لعربية | עברית | ไทย | 日本語</p>
+    <hr>
+
+    <div class="lastBar">
+        <img src="https://content1.geekbuying.com/V1.4/en/images/index_images/footicons.jpg?v=20220322" alt="">
+        <img src="https://content1.geekbuying.com/V1.4/en/images/index_images/geek_reviews.jpg?v=20220322">
+    </div>
+
+</div>
+<!-- 
+<---------------------------------------footer end----------------------------------------> 
+<script src="Script/index.js"></script>
+<script src="Data/indexData.js"></script>
