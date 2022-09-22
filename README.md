@@ -27,7 +27,9 @@
 ###### Within a span of one week i tried to build this website from scratch. It has main landing page which connects all sub pages including various products pages, payment page, cart pages, payment pages. For Example:
 
 **Home Page**: Main landing page with all the pages connected to it with header and footer.
+
 ![This is an image](https://miro.medium.com/max/1400/1*reHLRgJdlmvd2A0Q9ydt0Q.png)
+
 ![This is an image](https://miro.medium.com/max/1100/1*0hbt1voRTAhLsD8JWNFStQ.png)
 
 
@@ -35,6 +37,7 @@
 **Product Pages**: The page lets you choose product and move it to cart and Proceed with the payment page.
 
 ![This is an image](https://miro.medium.com/max/1100/1*CkeSdnsbnyHg3Dsd0_Ww_A.png)
+
 ![This is an image](https://miro.medium.com/max/1100/1*DJ4ZjF5_EWMJ6mmlvUo8qg.png)
 
 
@@ -42,16 +45,22 @@
 **Cart Page**: It has all the products you choose to buy.
 
 ![This is an image](https://miro.medium.com/max/1400/1*RuYE0m2b8sA6UGNoTdYzWg.png)
+
 ![This is an image](https://miro.medium.com/max/1100/1*RZ0I09hucFAGHyMN9HrSqA.png)
 
 
 
-Payment Page: Lets you enter all the card details and proceed with the payment.
+**Payment Page**: Lets you enter all the card details and proceed with the payment.
+
 ![This is an image](https://miro.medium.com/max/1100/1*3tOqqBpIwiv2Yq79xJODVg.png)
 
 
-Sign-in and Sign-up: The page lets you sign-in and sign-up.
+**Sign-in and Sign-up**: The page lets you sign-in and sign-up.
+
 ![This is an image](https://miro.medium.com/max/1100/1*qAS2Gbf6xmCq3hUMFc0Wew.png)
+
+![This is an image](https://miro.medium.com/max/1100/1*b_926RD0M8mEdB1GSkJhgQ.png)
+
 
 ###### I have used HTML, CSS and java script to build this website along with grid and flex to minimize code writing and array of object model to store data easily . Used local storage to store and retrieve data from it. the website lets you sign-in using sign-in page, if your do not have account then it lets you to sign-up first.
 
