@@ -27,42 +27,31 @@ Header and Footer
 ###### Within a span of one week i tried to build this website from scratch. It has main landing page which connects all sub pages including various products pages, payment page, cart pages, payment pages. For Example:
 
 ** Home Page **: Main landing page with all the pages connected to it with header and footer.
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 
-HomePage
-
-HomePage
-
-HomePage
 Product Pages: The page lets you choose product and move it to cart and Proceed with the payment page.
 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
-Product Page
 
-Product Page
 Cart Page: It has all the products you choose to buy.
 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
-Cart Page
 
-Cart Page
 Payment Page: Lets you enter all the card details and proceed with the payment.
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 
-Payment Page
-
-Payment Page
 Sign-in and Sign-up: The page lets you sign-in and sign-up.
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
-
-Sign-in Page
-
-Sign-Up Page
 ###### I have used HTML, CSS and java script to build this website along with grid and flex to minimize code writing and array of object model to store data easily . Used local storage to store and retrieve data from it. the website lets you sign-in using sign-in page, if your do not have account then it lets you to sign-up first.
 
 ###### After sign-in, we can add products from various product pages, in pages i have added a functionality to sort and filter data as need. Product page has a button which lets you add the particular product top to cart.
 
-*###### Cart page has all the products you moved to cart from product page and it shows the no of items in the cart along with the total price and a procedd to payment page button.
+###### Cart page has all the products you moved to cart from product page and it shows the no of items in the cart along with the total price and a procedd to payment page button.
 
 ###### Payment pages has all the field for card details and address details, enter all the details to move ahead with payment.
 
