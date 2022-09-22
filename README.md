@@ -26,20 +26,20 @@
 
 ###### Within a span of one week i tried to build this website from scratch. It has main landing page which connects all sub pages including various products pages, payment page, cart pages, payment pages. For Example:
 
-** Home Page **: Main landing page with all the pages connected to it with header and footer.
+**Home Page**: Main landing page with all the pages connected to it with header and footer.
 ![This is an image](https://miro.medium.com/max/1400/1*reHLRgJdlmvd2A0Q9ydt0Q.png)
 ![This is an image](https://miro.medium.com/max/1100/1*0hbt1voRTAhLsD8JWNFStQ.png)
 
 
 
-Product Pages: The page lets you choose product and move it to cart and Proceed with the payment page.
+**Product Pages**: The page lets you choose product and move it to cart and Proceed with the payment page.
 
 ![This is an image](https://miro.medium.com/max/1100/1*CkeSdnsbnyHg3Dsd0_Ww_A.png)
 ![This is an image](https://miro.medium.com/max/1100/1*DJ4ZjF5_EWMJ6mmlvUo8qg.png)
 
 
 
-Cart Page: It has all the products you choose to buy.
+**Cart Page**: It has all the products you choose to buy.
 
 ![This is an image](https://miro.medium.com/max/1400/1*RuYE0m2b8sA6UGNoTdYzWg.png)
 ![This is an image](https://miro.medium.com/max/1100/1*RZ0I09hucFAGHyMN9HrSqA.png)
